@@ -1,0 +1,150 @@
+@media screen and (max-width: 852px) {
+  main .p-card {
+    width: 50%;
+  }
+
+  .p-masthead .p-box {
+    font-size: 24px;
+  }
+  .home-three .contain {
+    width: 80%;
+  }
+  .flex {
+    flex-direction: column;
+  }
+ #navigation ul{
+   flex-direction: row;
+ }
+  #navigation > div {
+    flex: none;
+  }
+
+  main h1 {
+    font-size: 24px;
+  }
+  .home-one {
+    height: 600px;
+  }
+  .home-one div:nth-child(2) {
+    width: 82%;
+  }
+  .home-one h2 {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .home-three {
+    height: 600px;
+    gap: 0;
+  }
+  .contain {
+    width: 80%;
+    height: 230px;
+  }
+  .home-two div:first-child {
+    display: none;
+  }
+  #footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #footer div:first-child {
+    padding: 24px 0;
+  }
+  #footer div:nth-child(2) {
+    width: 90%;
+  }
+  .home-three .right {
+    width: 82%;
+  }
+  .left a {
+    width: 100%;
+    text-align: center;
+  }
+  .home-two h2 {
+    font-size: 180%;
+  }
+  #footer p {
+    font-size: 84%;
+  }
+  .home-one > div > img {
+    width: 80%;
+  }
+  .home-one > div > h2 {
+    font-size: 180%;
+  }
+  .home-one > div > p {
+    font-size: 90%;
+  }
+  header > div > svg {
+    width: 90%;
+  }
+
+  main h1 {
+    font-size: 120%;
+  }
+}
+@media screen and (max-width: 564px) {
+  main .p-card{
+    width: 80%;
+  }
+  #navigation .flex a{
+    font-size: 120%;
+  }
+  #footer p {
+    font-size: 60%;
+  }
+  .a-two h2 {
+    font-size: 28px;
+  }
+  .a-two p {
+    font-size: 14px;
+  }
+  .home-one {
+    height: 700px;
+  }
+}
+@media screen and (max-width: 910px) {
+  .a-right img{
+    margin: auto;
+  }
+  .a-main .a-two {
+    flex-direction: column;
+  }
+  .a-main .a-two .a-left {
+    margin-bottom: 32px;
+  }
+  .a-main .a-two > div {
+    width: 100%;
+  }
+  .img {
+    width: 56%;
+  }
+  .img img {
+    height: auto;
+    width: 100%;
+  }
+  .home-one > div > p {
+    font-size: 16px;
+  }
+  .contain {
+    width: 28%;
+  }
+  .right {
+    width: 60%;
+  }
+  .right iframe {
+    width: 100%;
+  }
+  .c-container .c-text-contain {
+    border: none;
+  }
+}
+@media screen and (max-width: 594px) {
+  .c-main h1 {
+    font-size: 18px;
+  }
+  .c-form {
+    width: 90%;
+  }
+}

@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Homepage css */
+main > h1 {
+  background-color: var(--primary-color);
+  padding: 12px 0;
+  color: white;
+  letter-spacing: -0.7px;
+}
+.home-one {
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  height: 400px;
+  background-color: #e7dce0;
+}
+.home-one p {
+  color: black;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.home-one div:nth-child(2) {
+  width: 50%;
+}
+
+:root {
+  --primary-color: rgb(204, 0, 0);
+}
+.flex {
+  display: flex;
+}
+.text-center {
+  text-align: center;
+}
+.m-b {
+  margin-bottom: 48px;
+}
+.pad {
+  padding: 0 20px;
+}
+
+.masthead > div {
+  background: url("../img/pexels-ron-lach-10295515.jpg") no-repeat center/cover;
+  height: 551px;
+  width: 100%;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+}
+.container div:first-child {
+  width: 24%;
+}
+.container div:first-child img {
+  width: 100%;
+}
+.home-two h2 {
+  font-size: 48px;
+  letter-spacing: -1px;
+  color: #353535;
+}
+.home-one > div > h2 {
+  font-size: 40px;
+  color: var(--primary-color);
+}
+.home-three {
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: var(--primary-color);
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+.contain {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  align-items: center;
+}
+.left {
+  flex-direction: column;
+}
+.left h2 {
+  font-weight: 200;
+  margin-bottom: 24px;
+  font-size: 32px;
+  color: white;
+}
+.left p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+.left a {
+  text-decoration: none;
+  color: red;
+  background-color: #ffffff;
+  width: 50%;
+  padding: 10px 17px;
+}
+
+/* Producst css */
+.p-masthead {
+  width: 100%;
+  height: 600px;
+  background: url("../img/pexels-cottonbro-4480517.jpg") no-repeat center/cover;
+  position: relative;
+}
+
+.p-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  width: 50%;
+  color: #cc0000;
+  padding: 8%;
+  text-align: center;
+  background-color: rgba(240, 240, 240, 0.8);
+}
+
+.p-one {
+  /* height: 400px; */
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 32px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.p-card button {
+  width: 100%;
+  /* margin: auto; */
+  display: none;
+  margin: 12px auto;
+  height: 48px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  box-shadow: 0 0 32px rgb(0 0 0 / 70%);
+  background: #cc0000;
+  cursor: pointer;
+}
+.p-card {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.4);
+  flex-basis: 28%;
+  /* transition: transform 0.2s ease; */
+}
+/* .p-card:hover {
+  transform: translate(0, -16px);
+} */
+
+.p-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.p-content {
+  padding: 20px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.p-content h2 {
+  color: #cc0000;
+  text-align: center;
+}
+.p-content ul {
+  flex-direction: column;
+  gap: 11px;
+  color: #595151;
+}
+.p-content li {
+  list-style: none;
+}
+.p-img {
+  height: 250px;
+}
+
+/* About css */
+.a-masthead > div {
+  background: url("../img/pexels-irbin-medina-1432137.jpg") no-repeat
+    center/cover;
+  height: 612px;
+  width: 100%;
+}
+main {
+  /* width: 100%; */
+}
+.a-one {
+  padding: 3vw;
+}
+.a-one h2 {
+  color: #cc0000;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 48px;
+  border-bottom: 1px solid #cc0000;
+}
+.a-one p {
+  line-height: 1.8;
+}
+.a-two {
+  display: flex;
+  padding: 3vw;
+  flex-wrap: wrap;
+}
+.a-left {
+  width: 50%;
+}
+.a-two h2 {
+  color: #cc0000;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 48px;
+  border-bottom: 1px solid #cc0000;
+}
+.a-two p {
+  line-height: 1.8;
+}
+.a-right {
+  align-self: center;
+  width: 50%;
+}
+.a-right img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+}
+
+/* Contact css */
+
+.c-main h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #cc0000;
+}
+.c-form {
+  padding: 24px;
+  max-width: 700px;
+  box-shadow: 0 0 32px rgb(0 0 0 / 40%);
+  border-radius: 10px;
+  color: #cc0000;
+  background-color: #ffffff;
+}
+.user-details {
+  font-size: 18px;
+}
+.user-details input {
+  width: 100%;
+  height: 48px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 32px rgb(0, 0, 0, 0.2);
+  padding-left: 16px;
+}
+.user-details input:focus {
+  border: 1px solid #cc0000;
+}
+.input {
+  margin: 24px 0;
+}
+.user-details .input:nth-child(3) input {
+  height: 128px;
+}
+.button input {
+  width: 100%;
+  height: 42px;
+  font-size: 20px;
+  background: #cc0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.c-masthead {
+  width: 100%;
+}
+.c-masthead > div {
+  background: url("../img/contact.jpg") no-repeat center/cover;
+  height: 612px;
+  width: 100%;
+}
+.c-container {
+  display: flex;
+  padding: 30px;
+  gap: 48px;
+  background: #cc0000;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.c-text-contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid white;
+  padding-right: 16px;
+}
+
+.c-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.c-text h3 {
+  color: white;
+  font-size: 24px;
+}
+.c-text p {
+  color: white;
+}
+.c-text a {
+  text-decoration: none;
+  color: #cc0000;
+  background: white;
+  width: 41%;
+  padding: 13px;
+}

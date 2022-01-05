@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required metatags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact the company" />
+    <meta name="robots" content="noindex nofollow" />
+
+    <!-- Different stylesheets -->
+    <link rel="stylesheet" href="./css/headfoot.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- Javascript and Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./js/javascript.js"></script>
+    <!-- Title of the page -->
+    <title>Contact Us</title>
+  </head>
+
+  <body>
+    <!-- header loaded from javascript file header.html -->
+    <header id="navigation" class="flex"></header>
+    <!-- Main Content of the page -->
+    <main class="c-main">
+      <!-- Section for large background picture -->
+      <section class="c-masthead">
+        <div></div>
+      </section>
+      <!-- big container for contact form and information -->
+      <div class="c-container">
+        <!-- Container for contact information of the company -->
+        <div class="c-text-contain">
+          <div class="c-text">
+            <h3>Contact Info </h3>
+            <p>Adress: xyz ab road Ontario Canada <br> Phone: 999 999 9999</p>
+            <!-- Readmore for reading about comapnny -->
+            <a href="about.html">Read More</a>
+          </div>
+        </div>
+
+        <!-- Contact form -->
+        <div class="c-form">
+          <h1 class="text-center">Contact Us and share your experience</h1>
+          <form action="backend">
+            <div class="user-details">
+              <div class="input">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder=" Your Full name" required />
+              </div>
+              <div class="input">
+                <span class="details">Email</span>
+                <input type="text" placeholder="Your email" required />
+              </div>
+              <div class="input">
+                <span class="details">Description</span>
+                <input
+                  type="text"
+                  placeholder="Tell us more about your experience"
+                  required
+                />
+              </div>
+            </div>
+            <!-- Button to submit form -->
+            <div class="button">
+              <input type="button" value="Send Message" />
+            </div>
+          </form>
+          <!-- form ends -->
+        </div>
+        <!-- Form conatiner ends -->
+      </div>
+      <!-- Main container ends -->
+    </main>
+    <!-- Footer loaded by js from footer.html -->
+    <footer id="footer"></footer>
+  </body>
+</html>
